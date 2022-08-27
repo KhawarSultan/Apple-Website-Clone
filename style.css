@@ -1,0 +1,163 @@
+@font-face {
+    src: url(/assets/Font/Poppins-Regular.ttf);
+    font-family: 'Poppins-Regular';
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* --Primary-color: #47ea4e;
+    --Secondary-color: white; */
+    --btn-color: #0071e3;
+    --P-font-size: 17px;
+    --Primary-border-color: transparent 2px solid;
+    --Secondary-border-color: transparent 2px solid;
+    --Ternory-border-color: transparent 2px solid;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Poppins-Regular';
+    font-size: var(--P-font-size);
+
+}
+
+/* h1 {
+    font-family: 'Poppins-Regular';
+    font-weight: bolder;
+    font-size: var(--h1-font-size);
+    letter-spacing: 1.6px;
+}
+
+h2 {
+    font-family: 'Poppins-Regular';
+    font-weight: bolder;
+    font-size: var(--h2-font-size);
+    letter-spacing: 1.4px;
+}
+
+h3 {
+    font-family: 'Poppins-Regular';
+    font-weight: bolder;
+    font-size: var(--h3-font-size);
+    letter-spacing: 1.2px;
+} */
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'Poppins-Regular';
+}
+
+
+input {
+    display: none;
+}
+
+.button {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.2s;
+
+    /* border: 1px solid black; */
+}
+.button:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+} 
+
+
+.button span {
+    /* border: 2px solid black; */
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    background: #eeeeee;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    transition: .3s;
+}
+
+.button span:hover {
+    transition: .3s;
+    padding: 10px;
+}
+
+.orange .button span {
+    background: #ca192a;
+}
+
+.amber .button span {
+    background: #fae1dc;
+}
+
+.lime .button span {
+    background: #000000;
+}
+
+.teal .button span {
+    background: #576856;
+}
+
+.blue .button span {
+    background: #437b9c;
+}
+
+.indigo .button span {
+    background: #f9f4f0;
+}
+
+.layer {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: transparent;
+    /*transition: ease .3s;*/
+    z-index: -1;
+}
+
+/* .orange input:checked~.layer {
+    background: #ca192a;
+}
+
+.amber input:checked~.layer {
+    background: #fae1dc;
+}
+
+.lime input:checked~.layer {
+    background: #000000;
+}
+
+.teal input:checked~.layer {
+    background: #576856;
+}
+
+.blue input:checked~.layer {
+    background: #437b9c;
+}
+
+.indigo input:checked~.layer {
+    background: #f9f4f0;
+} */
