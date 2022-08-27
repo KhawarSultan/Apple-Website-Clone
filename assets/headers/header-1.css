@@ -112,7 +112,7 @@ html {
     right: 0;
     left: 0;
     z-index: 10000;
-    background-color: rgb(255, 0, 0);
+    background-color: #333333;
     visibility: hidden;
     opacity: 0;
     transform: translateY(-100%);

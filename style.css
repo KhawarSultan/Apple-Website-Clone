@@ -72,10 +72,11 @@ input {
 
     /* border: 1px solid black; */
 }
+
 .button:hover {
     transform: scale(1.2);
     transition: 0.3s;
-} 
+}
 
 
 .button span {
@@ -161,3 +162,63 @@ input {
 .indigo input:checked~.layer {
     background: #f9f4f0;
 } */
+
+
+.Fst-image img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 22px;
+    width: 100%;
+}
+
+.Sst-image video {
+    border-radius: 22px;
+    width: 100%;
+}
+
+.Tst-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 22px;
+    width: 100%;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top-left {
+    position: absolute;
+    top: 22px;
+    left: 22px;
+}
+
+.top-center {
+    position: absolute;
+}
+
+.fa-circle-plus {
+    transition: 0.3s;
+}
+
+.fa-circle-plus:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
