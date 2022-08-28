@@ -249,7 +249,13 @@ hr.new {
     background-color:  rgb(196, 196, 196);
 }
 
-
+.multicolortext {
+    background-image: linear-gradient(to left, #95cef3, #a9f9d7);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
 @media (max-width: 768px){
 
 .iphon-13{
