@@ -248,3 +248,12 @@ input {
 hr.new {
     background-color:  rgb(196, 196, 196);
 }
+
+
+@media (max-width: 768px){
+
+.iphon-13{
+    display: none;
+}
+
+}
