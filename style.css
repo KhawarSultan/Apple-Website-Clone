@@ -29,7 +29,23 @@ p {
     font-size: var(--P-font-size);
 
 }
+.btn {
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 6px 0px;
+    padding: 7px 20px;
+    color: white;
+    background-color: #0071e3;
+    transition: 0.2s;
+    border-radius: 30px;
+}
 
+.btn:hover {
+    background-color: #0080ff;
+    color: white;
+    transition: 0.4s;
+}
 /* h1 {
     font-family: 'Poppins-Regular';
     font-weight: bolder;
@@ -203,7 +219,12 @@ input {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+.centered-left {
+    position: absolute;
+    top: 84%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+}
 .top-left {
     position: absolute;
     top: 22px;
@@ -221,4 +242,9 @@ input {
 .fa-circle-plus:hover {
     transform: scale(1.2);
     transition: 0.3s;
+}
+
+
+hr.new {
+    background-color:  rgb(196, 196, 196);
 }

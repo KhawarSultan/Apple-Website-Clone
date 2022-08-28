@@ -108,21 +108,3 @@ html {
     /* padding: 0rem 1rem 0.8rem 0rem; */
   }
 }
-
-.btn {
-  font-size: 14px;
-  text-decoration: none;
-  display: inline-block;
-  margin: 6px 0px;
-  padding:7px 20px;
-  color: white;
-  background-color: #0071e3;
-  transition: 0.2s;
-  border-radius: 25px;
-}
-
-.btn:hover {
-  background-color: #0080ff;
-  color: white;
-  transition: 0.4s;
-}
