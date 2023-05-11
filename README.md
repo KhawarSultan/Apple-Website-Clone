@@ -15,7 +15,7 @@ The Apple iPhone 13 Clone website is a replica built using HTML, CSS, JavaScript
 
 ## Demo
 
-Check out the live demo of the University Multi-page website [here](https://applephone13.netlify.app/).
+Check out the live demo of the Apple IPhone 13 - Clone Website [here](https://applephone13.netlify.app/).
 
 ## Screenshots
 
@@ -30,12 +30,6 @@ Check out the live demo of the University Multi-page website [here](https://appl
 
 ## Run Locally
 
-Before running the project, ensure that you have the following software installed:
-
-- Node.js (version X.X.X or later)
-- npm (version X.X.X or later)
-
-## Installation
 
 Clone the repository to your local machine:
 
