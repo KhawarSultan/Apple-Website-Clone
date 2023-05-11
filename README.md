@@ -26,7 +26,7 @@ Check out the live demo of the Apple IPhone 13 - Clone Website [here](https://ap
 ![HTML](https://img.shields.io/badge/-HTML-orange?style=flat-square&logo=html5)
 ![CSS](https://img.shields.io/badge/-CSS-blue?style=flat-square&logo=css3)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=flat-square&logo=javascript)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-2C5282?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-2C5282?style=flat-square&for-the-badge&logo=tailwind-css&logoColor=white)
 
 ## Run Locally
 
